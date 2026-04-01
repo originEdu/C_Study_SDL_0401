@@ -37,6 +37,7 @@ int SDL_main(int arg, char* argv[])
 		{ 
 			isRunning = false;
 		}
+		//함수화 및 Direction화 패스
 		if (EventType == SDL_KEYDOWN)
 		{
 			switch (KeyCode)
